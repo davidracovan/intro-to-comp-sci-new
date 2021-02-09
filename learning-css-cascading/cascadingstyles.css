@@ -1,0 +1,10 @@
+p {
+    background-color: yellow;
+}
+.specialdiv {
+    border-radius: 25px;
+    background-color: navy;
+    border: 2px solid grey;
+    height: 50px;
+    width: 50px;
+}
