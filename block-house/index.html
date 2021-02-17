@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House</title>
+    <style>
+        .housebase {
+            background-color: grey;
+            width: 80%;
+            height: 400px;
+            position: absolute;
+            bottom: 20px;
+            align-self: center;
+        }
+        .windowLeft {
+            background-color: floralwhite;
+            width: 25%;
+            height: 60%;
+            position: absolute;
+            top: 30px;
+            left: 5%;
+        }
+        .windowRight {
+            background-color: floralwhite;
+            width: 25%;
+            height: 60%;
+            position: absolute;
+            top: 30px;
+            right: 5%;
+        }
+        .door {
+            background-color: red;
+            position: absolute;
+            bottom: 0px;
+            left: 35%;
+            right: auto;
+            width: 30%;
+            height: 70%;
+        }
+        .roof {
+            width: 0;
+            height: 0;
+            border-width: 0 450px 150px 450px;
+            border-color: transparent transparent brown transparent;
+            border-style: solid;
+            position: absolute;
+            bottom: 420px;
+        }
+    </style>
+</head>
+<body>
+    <div class="roof"></div>
+    <div class="housebase">
+        <div class="door"></div>
+        <div class="windowLeft"></div>
+        <div class="windowRight"></div>
+    </div>
+</body>
+</html>
