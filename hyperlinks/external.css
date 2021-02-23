@@ -1,0 +1,49 @@
+p {
+    background-color: teal;
+}
+
+.headingStyle {
+    font-size: 3.5em;
+    font-weight: bolder;
+    font-family: fantasy;
+    background-color: #EB662D;
+    color: indigo;
+    height: 60px;
+    margin: 5px;
+    text-align: center;
+    vertical-align: -webkit-baseline-middle;
+    font-family: fantasy;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.column1 {
+    float: left;
+    width: 65%;
+    height: 70%;
+    margin: 5px;
+    background-color: lightsteelblue;
+    color: mediumblue;
+    padding: 1%;
+    font-family: cursive;
+}
+
+.column2 {
+    float: right;
+    width: 25%;
+    height: 70%;
+    margin: 5px;
+    background-color: mediumorchid;
+    color: mediumblue;
+    padding: 1%;
+    font-family: fantasy;
+}
+
+.footerStyle {
+    background-color: greenyellow;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin: 5px;
+}
